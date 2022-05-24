@@ -34,7 +34,7 @@ $ git clone https://github.com/Dankshiku/Godzilla
 
 $ cd Godzilla
 
-$ bash install.sh
+$ bash install_termux.sh
 
 $ python Godzilla.py
 
@@ -44,7 +44,15 @@ $ python Godzilla.py
 
 `slowloris`
 
-:Slowloris is a type of denial of service attack tool which allows a single machine to take down another machine's web server with minimal bandwidth and side effects on unrelated services and ports. Slowloris tries to keep many connections to the target web server open and hold them open as long as possible. 
+Slowloris is a type of denial of service attack tool which allows a single machine to take down another machine's web server with minimal bandwidth and side effects on unrelated services and ports. Slowloris tries to keep many connections to the target web server open and hold them open as long as possible. 
+
+`Nmap `
+ 
+ Nmap is a network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. 
+ 
+ `Nikto`
+ 
+Nikto is an open-source website vulnerability scanner, it performs comprehensive tests on servers in several directions, including more than 6,700 potentially dangerous files/programs, checking for outdated versions of more than 1250 servers and problems specific to versions of more than 270 servers. The scanner also checks server configuration items, such as the presence of multiple index files, HTTP server options, and tries to determine the name and version of the webserver and software
 
 ### Screenshot
 
