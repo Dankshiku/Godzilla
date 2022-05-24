@@ -51,7 +51,7 @@ def scan():
       print("")
       print ("\033[31;1m[+]\033[31;1m\033[m Nikto \033[m ")
       print("")
-      os.system("perl module/nikto/program/nikto.pl -h "+target+"")
+      os.system("perl nikto/program/nikto.pl -h "+target+"")
       print("")
       menu()
 def attack():
