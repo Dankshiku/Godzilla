@@ -31,6 +31,7 @@ def installation():
       print("")
       os.system("clear")
       print(banner)
+      print("")
       print("\033[31;1m[+]\033[31;1m \033[m DOWNLOAD REQUIREMENTS    ")
       print("")
       os.system("pkg install python -y")
